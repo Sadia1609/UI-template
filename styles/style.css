@@ -127,4 +127,42 @@ nav {
     
 }
 
+/* touch section */
+.touch-section {
+    padding: 130px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    height: 500px;
+    width: 700px;
+    margin: auto;
+   
+}
+
+.touch-left-column h3 {
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 120%;
+    color: #000000;
+    
+}
+
+.touch-right-column {
+    margin-top: 71px;
+    margin-bottom: 71px;
+}
+
+section input[type="text"], section input[type="email"], section textarea {
+    height: 60px;
+    border-radius: 5px;
+    background-color: white;
+    color: #757575;
+    display: block;
+    width: 400px;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+   
+}
+
 
