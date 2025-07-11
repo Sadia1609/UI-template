@@ -54,6 +54,8 @@ nav {
 
 
 /* main */
+
+/* action section */
 .action-container {
     display: flex;
     align-items: center;
@@ -87,4 +89,42 @@ nav {
     height: 328px;
     border-radius: 48px;
 }
+
+/* productive users */
+.productive-users {
+    background-color: #dcdcf9;
+    height: 306px;
+    width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 24px;
+    margin-bottom: 116px;
+}
+
+.productive-users h3 {
+    font-weight: bold;
+    font-size: 38px;
+    padding-top: 40px;
+}
+
+.data {
+    font-weight: bold;
+    font-size: 50px;
+    color: #4E47FF;
+    margin-top: 40px;
+    margin-bottom: 9px;
+}
+
+.user-info {
+    font-size: 20px;
+    color: #757575;
+}
+
+
+.users-data {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
 
