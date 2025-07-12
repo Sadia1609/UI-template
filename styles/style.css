@@ -128,7 +128,45 @@ nav {
 }
 
 /* feedback */
+.feedback {
+   
+    
+    height: 342px;
+    width: 1140px;
+    margin: auto;
+} 
 
+.feedback h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.card {
+   
+    height: 243px;
+    width: 320px;
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 14px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px 3px gainsboro;
+
+}
+
+.studio{
+    color: #1E1E1E;
+}
+
+.reviewer {
+    color: #757575;
+    font-size: 14px;
+}
 
 /* touch section */
 .touch-section {
